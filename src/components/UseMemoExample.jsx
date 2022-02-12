@@ -1,5 +1,10 @@
 import {useState, useEffect, useRef, useMemo} from "react"
 
+/*
+    useMemo can be used if we dont want a "value" in the page to rerender when we dont want it to
+*/
+
+
 function UseMemoExample() {
  const [number, setNumber] = useState(1)
  const [inc, setInc] = useState(0)
